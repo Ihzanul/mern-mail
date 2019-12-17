@@ -54,7 +54,7 @@ export default function Print() {
               <TableCell align="center">Nama</TableCell>
               <TableCell align="center">Stambuk</TableCell>
               <TableCell align="center">Semester</TableCell>
-              <TableCell className={onPrint ? classes.onPrint : ''} align="center">Aksi</TableCell>
+              {/* <TableCell className={onPrint ? classes.onPrint : ''} align="center">Aksi</TableCell> */}
             </TableRow>
           </TableHead>
           <TableBody>
@@ -67,13 +67,13 @@ export default function Print() {
                   <TableCell align="center">{mail.name}</TableCell>
                   <TableCell align="center">{mail.nim}</TableCell>
                   <TableCell align="center">{mail.semester}</TableCell>
-                  <TableCell  align="center">
+                  {/* <TableCell  align="center">
                     <Link className={classes.link}>
                       Ubah
                     </Link>
                     |
                     <a href='#' >Hapus</a>
-                  </TableCell>
+                  </TableCell> */}
                 </TableRow>
               )
             })}
